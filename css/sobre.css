@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  color: #87a922;
+  letter-spacing: 3px;
+}
+p {
+  margin-top: 3px;
+  padding: 5px;
+  text-align: center;
+  color: #6420aa;
+}
+
+.artigo {
+  width: 400px;
+  height: 580px;
+  border-style: groove;
+  border-width: 8px;
+  border-color: #f7f6bb;
+  margin: 15px;
+}
+
+.artigoLogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.artigoLogoContainer img {
+  width: 110px;
+  height: 70px;
+  margin: 8px;
+}
+
+.artigoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

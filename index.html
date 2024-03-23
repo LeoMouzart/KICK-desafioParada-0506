@@ -1,0 +1,83 @@
+<!--Crie uma página adicional para o site que nós desenvolvemos em aula, 
+    ela deve conter um menu e deve ser possível navegar entre a nova página e a página inicial utilizando o menu. 
+    A página deve conter no mínimo:
+
+1 <h1>
+2 <p>
+1 <img>
+
+Não se esqueça de adicionar o css em um arquivo externo e referenciar o mesmo no head da página, como nós fizemos em aula.
+Salve todos os arquivos dentro de uma pasta chamada desafio parada 05 e depois coloque a pasta no repositório git do módulo I.
+ Envie o link do repositório para avaliação.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Desafio Parada 05/06</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html">
+              <img
+                src="img/logo.png"
+                alt="logo da home"
+                class="logoMenu"
+              />Inicio</a
+            >
+          </li>
+          <li>
+            <a href="sobre.html">
+              <img
+                src="img/Sobre.png"
+                alt="logo-do link sobre"
+                class="logoMenu"
+              />Sobre</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="logoContainer">
+        <div class="logo">
+          <img src="img/google.png" alt="logo-google" />
+        </div>
+      </div>
+
+      <div class="inputContainer">
+        <div class="caixaTexto">
+          <input
+            type="text"
+            name="text"
+            placeholder="   Digite aqui sua pesquisa"
+            class="caixaPesquisa"
+          />
+        </div>
+        <div class="containerBotao">
+          <input type="submit" value="Pesquisar" class="botao" />
+          <input type="submit" value="Estou com sorte" class="botao" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>Todos os direitos reservados</p>
+      </div>
+      <div>
+        <p>Leonardo Mouzart do Nascimento - KICK Tecnologia TURMA J</p>
+      </div>
+    </footer>
+  </body>
+</html>

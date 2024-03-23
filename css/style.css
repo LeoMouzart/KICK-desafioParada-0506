@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  margin-top: 3px;
+  padding: 3px;
+  text-align: center;
+  color: #6420aa;
+}
+
+.menu ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+.logoMenu {
+  width: 60px;
+}
+
+.menu ul li {
+  list-style-type: none;
+  display: flex;
+}
+.menu ul li a {
+  margin: 0 5px;
+  display: flex; /* Transforma o link em um flex container */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens verticalmente */
+  text-decoration: none;
+  font-size: 16px;
+  color: #6420aa;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------*/
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo {
+  width: 310px;
+  height: 130px;
+  margin-top: 80px;
+}
+
+.logo img {
+  width: 300px;
+  height: 100px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caixaPesquisa {
+  margin: 10px;
+  width: 500px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.botao {
+  margin-right: 10px;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  border: #ffff;
+  text-transform: uppercase;
+  font-family: "Roboto" sans-serif;
+}
+
+.botao:hover {
+  background-color: blueviolet;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 180px;
+  border-top: #f7f6bb 3px solid;
+}
+footer p {
+  flex-direction: column;
+}
