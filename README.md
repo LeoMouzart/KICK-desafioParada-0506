@@ -10,4 +10,4 @@ Salve todos os arquivos dentro de uma pasta chamada desafio parada 05 e depois c
  Envie o link do repositório para avaliação
 
 
- O desafio pedia para criar uma segunda página e referencia-la , usei essa página para contar um pouco sobre mim e sobre o momento que vivo atualmente na área academica.
+ O desafio pedia para criar uma segunda página e referencia-la , usei essa página para contar um pouco sobre mim e sobre o momento que vivo atualmente estudando programação
